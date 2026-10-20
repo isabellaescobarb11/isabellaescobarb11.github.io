@@ -5,6 +5,45 @@
 </head>
 
 <style>
+  nav {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 25px;
+  }    
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 25vh;
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  } 
+  
   .text-center {
     text-align: center;
     max-width: 700px;
@@ -25,6 +64,12 @@
 </style>
 
 <body>
+  <nav>
+        <a href="Isabella Escobar Software Resume 26'.docx.pdf">Resume</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+  </nav>
+  
   <h1 class="text-center">About Me!</h1>
   <div class="headshot">
     <img src="side_headshot.jpg" alt="Headshot of me">
