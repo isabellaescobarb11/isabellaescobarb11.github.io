@@ -8,7 +8,8 @@
             nav {
                 position: absolute;
                 top: 20px;
-                right: 30px;
+                left: 50%;
+                transform: translateX(-50%);
                 display: flex;
                 gap: 25px;
             }    
@@ -40,18 +41,12 @@
             background-position: center;
             background-repeat: no-repeat;
         }        
-        .github-link {
+        .social-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
             margin-top: 80px;
-            text-decoration: none;
-            color: white;
-            text-align: center;
-        }
-
-        .linkedIn-link {
-            margin-top: 80px;
-            text-decoration: none;
-            color: white;
-            text-align: center;
         }
     }
     </style>
@@ -66,16 +61,18 @@
     <h3>Software Engineering Student | Problem Solver | First-Generation Student</h3>
     <p>I enjoy building meaningful solutions and turning ideas into real-world impact.</p>
 
-     <a href="https://github.com/isabellaescobarb11"
-       target="_blank"
-       style="text-decoration: none; color: white;">
-        <img src="github.png" alt="GitHub" width="40">
-    </a>
-    
-    <a href="https://www.linkedin.com/in/isabella-escobar-bobadilla-5719b0269/"
-       target="_blank"
-       style="text-decoration: none; color: white;">
-        <img src="linkedIn.png" alt="LinkedIn" width="40">
-    </a>
+    <div class="social-links">
+         <a href="https://github.com/isabellaescobarb11"
+           target="_blank"
+           style="text-decoration: none; color: white;">
+            <img src="github.png" alt="GitHub" width="40">
+        </a>
+        
+        <a href="https://www.linkedin.com/in/isabella-escobar-bobadilla-5719b0269/"
+           target="_blank"
+           style="text-decoration: none; color: white;">
+            <img src="linkedIn.png" alt="LinkedIn" width="40">
+        </a>
+    </div>
 </body>
 </html>
