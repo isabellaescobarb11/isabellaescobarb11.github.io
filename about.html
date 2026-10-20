@@ -2,67 +2,59 @@
 <html>
 <head>
   <Title>About Me</Title>
+  <style>
+    body{
+      nav {
+          position: absolute;
+          top: 20px;
+          left: 50%;
+          transform: translateX(-50%);
+          display: flex;
+          gap: 25px;
+        }    
+        nav a {
+          color: white;
+          text-decoration: none;
+          font-size: 16px;
+          font-weight: bold;
+        }
+        nav a:hover {
+          text-decoration: underline;
+        }
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 25vh;
+        box-sizing: border-box;
+        min-height: 100vh;
+        margin: 0;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        
+        background-image: url("background.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .text-center {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .headshot {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .headshot img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+  }
+  </style>
 </head>
-
-<style>
-  nav {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 25px;
-  }    
-
-  nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-  }
-
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  padding-top: 25vh;
-  box-sizing: border-box;
-  min-height: 100vh;
-  margin: 0;
-  text-align: center;
-  font-family: Arial, sans-serif;
-  
-  background-image: url("background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  
-  } 
-  
-  .text-center {
-    text-align: center;
-    max-width: 700px;
-    margin: 0 auto;
-  }
-  
-  .headshot {
-    text-align: center;
-    margin: 20px 0;
-  }
-
-  .headshot img {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-</style>
-
 <body>
   <nav>
         <a href="Isabella Escobar Software Resume 26'.docx.pdf">Resume</a>
